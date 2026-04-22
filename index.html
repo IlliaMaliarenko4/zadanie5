@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Illia Maliarenko</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Illia Maliarenko - CV</h1>
+        <img src="zdjecie.jpg" alt="Zdjęcie profilowe Illia Maliarenko" width="150">
+    </header>
+    <main>
+        <section>
+            <h2>Kontakt</h2>
+            <p>Miasto: Warszawa</p>
+            <p>Email: <a href="mailto:illyamalyarenko540@gmail.com">illyamalyarenko540@gmail.com</a></p>
+            <p>Telefon: <a href="tel:+48575922143">+48 575 922 143</a></p>
+            <p>Profile w sieci:</p>
+            <ul>
+                <li><a href="https://github.com/IlliaMaliarenko4" target="_blank" rel="noopener noreferrer">Mój GitHub</a></li>
+                <li><a href="https://t.me/+48575922143" target="_blank" rel="noopener noreferrer">Mój Telegram</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>O mnie</h2>
+            <p>Początkujący kandydat i student kierunku Cybersecurity z solidnymi podstawami IT. Zwracam uwagę na szczegóły i jestem zdyscyplinowany, ze strukturalnym podejściem do pracy z liczbami i weryfikacji dokładności. Zainteresowany rozwojem w obszarze analityki i technologii.</p>
+        </section>
+        <section>
+            <h2>Umiejętności</h2>
+            <ul>
+                <li>Komfortowa praca z systemami Windows i Linux, rozumienie zasad działania OS</li>
+                <li>Podstawowe doświadczenie w programowaniu: C, Java, PHP</li>
+                <li>Excel / Google Sheets: kalkulacje, praca z tabelami i danymi</li>
+                <li>Zdolności analityczne i strukturalne rozwiązywanie problemów</li>
+                <li>Języki: Ukraiński (ojczysty), Rosyjski (biegły), Polski (B2+), Angielski (A2)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Edukacja</h2>
+            <p>Uczelnia: Vistula University - Academy of Finance and Business (Warszawa, Polska)</p>
+            <p>Kierunek: Cybersecurity</p>
+            <p>Okres: 2025 - do teraz</p>
+        </section>
+        <section>
+            <h2>Formularz kontaktowy</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="imie">Imię:</label><br>
+                    <input type="text" id="imie" name="imie">
+                    <span id="imie-error" class="error-msg"></span>
+                </div>
+                <div class="form-group">
+                    <label for="nazwisko">Nazwisko:</label><br>
+                    <input type="text" id="nazwisko" name="nazwisko">
+                    <span id="nazwisko-error" class="error-msg"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email">
+                    <span id="email-error" class="error-msg"></span>
+                </div>
+                <div class="form-group">
+                    <label for="wiadomosc">Wiadomość:</label><br>
+                    <textarea id="wiadomosc" name="wiadomosc" rows="4"></textarea>
+                    <span id="wiadomosc-error" class="error-msg"></span>
+                </div>
+                <button type="submit" id="submit-btn">Wyślij wiadomość</button>
+                <div id="success-message">Formularz został pomyślnie wysłany!</div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Illia Maliarenko. Strona stworzona na potrzeby zajęć laboratoryjnych.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
